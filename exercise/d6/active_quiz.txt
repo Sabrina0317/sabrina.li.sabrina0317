@@ -1,0 +1,22 @@
+1. What is a database?
+A database is a collection of data that is organized so that its contents can easily be accessed, managed, and updated. 
+
+2. What is a database table?
+A collection of related data held in a structured format within a database. It consists of fields (columns), and rows.
+How does it relate to a database? 
+In terms of the relational model of databases, a table can be considered a convenient representation of a relation, but the two are not strictly equivalent. For instance, an SQL table can potentially contain duplicate rows, whereas a true relation cannot contain duplicate tuples. 
+What's a good analogy for a database table (i.e. a way to visualize it)?
+Relational databases let you use information in the same manner that you think about it. When you retrieve the information from the database, you simply say, "I want this piece of information and those items that relate to it."
+
+3.Draw the tweets database table
+
+   |user_id|hashtag|favorites|
+___ _______ _______ __________
+   | FixNum|String |FixNum 
+
+4. Why do we use models/resources at all?
+
+5.What is ActiveRecord?
+Active Record is the M in MVC - the model - which is the layer of the system responsible for representing business data and logic. Active Record facilitates the creation and use of business objects whose data requires persistent storage to a database. It is an implementation of the Active Record pattern which itself is a description of an Object Relational Mapping system.
+
+6.What's the difference between a database table, resource and an ActiveRecord model?

@@ -1,0 +1,28 @@
+1.What are the relevant views or pages? Come up with at least 7.
+Shopping Cart Page. Confirmation Page after Purchase. Result Page after Searching. Detail Page for a Certain Product. Home Page for Amazon’s own Advertise & Announcement. Searching Page. Personal Account Page.
+
+2.What data do we want to store? List all the information we could ever want to store (for example, "items that are in a user's shopping cart"). Come with at least 10.
+Address Book. E-mail address. Password. 1-Click Settings. Payment Options. Archived Orders. Gift Card Redemption. Kindle Orders.E-mail preference.  
+
+3.What actions can be done? Try to think in terms of who or what does what action to what data ("A user creates a tweet"). Also think CRUD!
+A user creates/reads/updates/destroys an(a) address book/email address/payment option/1-click settings……
+
+4.Can you group your data into models (i.e. Tweet or User)? What are those models? A great starting place to think up of models are the actors or actees of your actions (in the above example a user and a tweet). Note that there are often no "right" answers to these questions—it's up to you, the designer, to determine how your app works. What are the attributes (name, handle, body, price, etc.) of each model? How do you decide what's an attribute and what's another model entirely?
+Address book/email address/payment option/1-click settings belongs to the user
+
+5.What are the relationships between the models? Note which ones "belong to" others, "have many" others, or "have and belong to many" others. Draw a model diagram like we did in class.
+
+6.Finally, draw the tables for each model, including all of its attributes. Include any join tables you have as well.
+
+
+
+
+notes from the lecture:
+
+User (with its attributes): names, shipping address,  shipping cart
+
+model: item with attributes (name, price, rating)
+       category: name
+       cart: …
+
+User —-(1:n)—-item 

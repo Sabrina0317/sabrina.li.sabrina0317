@@ -1,0 +1,45 @@
+E1: Git Research
+
+1. git init creates an empty Git repository or reinitialize an existing one
+
+2. git add adds/stages all of the files in the current directory, and files will be committed later. git commit commits the files that have been added and creates a new revision with a log. If you do not add any files, git will not commit anything. You can combine both actions with git commit -a.
+
+3.A staged file is one simply being prepared for a commit.A committed (or versioned) file is one has already been committed.
+
+4.git commit -m "message"
+
+5. git reset HEAD <file>. Assuming the commit desired is “abcde”: git checkout abcde file/to/restore.
+
+6.it is the communication for future self reference or in the team. 
+
+7.git checkout
+
+8. :q (without saving); esc + :wq + enter (with saving)
+
+E2
+
+1. Git is a revision control system, a tool to manage your source code history. GitHub is a hosting service for Git repositories. So they are not the same thing: Git the tool, GitHub the service for projects that uses Git. 
+
+2.Git, like other version control systems, manages and stores revisions of projects. Many open resources are available on GitHub, and therefore people are able to share ideas and develop technology thanks to GitHub.
+
+3.Updates remote refs using local refs, while sending objects necessary to complete the given refs.
+
+4.Fetch from and integrate with another repository or a local branch. In its default mode, git pull is shorthand for git fetch followed by git merge FETCH_HEAD.
+
+
+E4
+
+1.What is a request?
+2.What is making the request? browser
+3.Where does the request go? -Web Server. What's its "address”?—URL (http://…)
+4.What happens to the request when it gets "there"? —giving something back
+5.What comes back?-server response. What is it? What data does it contain?-content of page.html or error code
+6.What happens when it comes back?
+
+
+E5
+
+1.What shows up on the screen? Error Page. 
+2.What does it mean? This is not a real web page, which means there is no meaningful content.
+3.Why is the error it displays that particular number? —The 404 or Not Found error message is an HTTP standard response code indicating that the client was able to communicate with a given server, but the server could not find what was requested.
+4.Does this in fact mean that Ruby does not rock? —-this is a broken or dead link.
