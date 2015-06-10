@@ -1,0 +1,31 @@
+
+1. Create a User with a name and followers count
+
+user = User.new(:id => 1, :name => "David", :followers => 100)
+
+2. Find it with User.find. Assign the result to the variable user
+
+user = User.find(1)
+
+
+3. Find it by name with User.find_by
+
+user = User.find_by name: “David”
+
+
+4. Write a command that finds all the users with followers count equal to 10.
+
+user_with_10_followers = User.where(followers: 10)
+
+5.Update user from step 2 to have a different name. Make sure to save!
+user_2=User.update_attributes(:name => “Ben”)
+user_2.save
+
+6. Create a Tweet for this user. Assign the correct user_id, and make sure to save.
+tweet = user_2.new(:body => "hello", :handle => "@daretorant")
+
+7.Update the tweet from step 6 to have a different body.
+tweet.update_attributes(:body => "omg this cat is AMAZING")
+
+8.Destroy it.
+tweet.destroy
